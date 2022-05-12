@@ -2,6 +2,7 @@ import React, {useState, useEffect} from 'react';
 import Markdown from 'react-markdown';
 import Box from '@mui/material/Box';
 import Button from '@mui/material/Button';
+import NavBar from './navbar';
 
 const startpage: React.FunctionComponent = () => {
     
@@ -11,6 +12,7 @@ const startpage: React.FunctionComponent = () => {
     
     return (
     <Box>
+        <NavBar />
         <div>
             <h1>CO2-Footprint</h1>
             <Markdown children={infotext} />
