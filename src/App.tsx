@@ -1,7 +1,8 @@
 import React from 'react';
 import './App.css';
 import { HashRouter as Router, Switch, Route } from 'react-router-dom';
-import startpage  from './views/startpage';
+import Startpage  from './views/startpage';
+import Rechner from './views/rechner';
 
 
 export const App = () => {
@@ -14,10 +15,10 @@ export const App = () => {
           <Route path="*">
             <Switch>
               <Route path="/startpage">
-                <startpage />
+                <Startpage />
               </Route>
               <Route path="/rechner">
-                
+                <Rechner />
               </Route>
               <Route path="/welt-co2-fußabdruck">
 

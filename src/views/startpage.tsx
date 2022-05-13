@@ -8,7 +8,7 @@ import Alert from '@mui/material/Alert';
 import AlertTitle from '@mui/material/AlertTitle';
 import Stack from '@mui/material/Stack';
 
-const startpage: React.FunctionComponent = () => {
+const Startpage: React.FunctionComponent = () => {
     
     const wikiLink = 'https://de.m.wikipedia.org/wiki/CO2-Bilanz';
 
@@ -52,4 +52,4 @@ const startpage: React.FunctionComponent = () => {
     );
 }
 
-export default startpage;
+export default Startpage;
