@@ -1,6 +1,6 @@
 import React from 'react';
 import './App.css';
-import { HashRouter as Router, Switch, Route } from 'react-router-dom';
+import { HashRouter as Router, Routes, Route } from 'react-router-dom';
 import Startpage  from './views/startpage';
 import Rechner from './views/rechner';
 
@@ -11,9 +11,9 @@ export const App = () => {
       <header className="CO2-Footprint">
       </header>
       <Router>
-        <Switch>
+        <Routes>
           <Route path="*">
-            <Switch>
+            <Routes>
               <Route path="/startpage">
                 <Startpage />
               </Route>
@@ -26,9 +26,9 @@ export const App = () => {
               <Route path="/wikipedia">
 
               </Route>
-            </Switch>
+            </Routes>
           </Route>
-        </Switch>
+        </Routes>
       </Router>
     </div>
   );
