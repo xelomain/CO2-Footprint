@@ -32,52 +32,58 @@
 
 ## 1 Startphase
 
-&uarr; [zurück zur Übersicht](#top)
 <a name="11"></a>
 
 ### 1.1 Projektumfeld
 
 &uarr; [zurück zur Übersicht](#top)
+
 <a name="12"></a>
 
 ### 1.2 Ist-Analyse
 
 &uarr; [zurück zur Übersicht](#top)
+
 <a name="13"></a>
 
 ### 1.3 Projektauftrag fixieren und Ziele definieren
 
 &uarr; [zurück zur Übersicht](#top)
+
 <a name="2"></a>
 
 ## 2 Planungsphase
 
-&uarr; [zurück zur Übersicht](#top)
 <a name="21"></a>
 
 ### 2.1 Soll-Konzept
 
 &uarr; [zurück zur Übersicht](#top)
+
 <a name="22"></a>
 
 ### 2.2 Ressourcen- und Personalplanung
 
 &uarr; [zurück zur Übersicht](#top)
+
 <a name="23"></a>
 
 ### 2.3 Zeitplanung
 
 &uarr; [zurück zur Übersicht](#top)
+
 <a name="231"></a>
 
 #### 2.3.1 Meilensteine
 
 &uarr; [zurück zur Übersicht](#top)
+
 <a name="232"></a>
 
 #### 2.3.2 Terminplanung
 
 &uarr; [zurück zur Übersicht](#top)
+
 <a name="24"></a>
 
 ### 2.4 Vorkalkulation
@@ -93,8 +99,6 @@
 <a name="3"></a>
 
 ## 3 Durchführungsphase
-
-&uarr; [zurück zur Übersicht](#top)
 
 <a name="31"></a>
 
@@ -136,8 +140,6 @@
 
 ## 4 Abschlussphase
 
-&uarr; [zurück zur Übersicht](#top)
-
 <a name="41"></a>
 
 ### 4.1 Soll-Ist-Vergleich
@@ -159,8 +161,6 @@
 <a name="5"></a>
 
 ## 5 Anhang
-
-&uarr; [zurück zur Übersicht](#top)
 
 <a name="51"></a>
 
