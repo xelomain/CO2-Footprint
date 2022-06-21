@@ -75,11 +75,17 @@
 
 ### 1.2 Ist-Analyse
 
+Viele der definierten Kunden/Nutzer sind sich über Ihren negativen Einfluss auf die Umwelt nicht bewusst, da sie entweder gar nicht oder nur selten mit der Realität konfrontiert werden. Auch wenn die persönliche CO₂-Bilanz eine ursprüngliche Erfindung von bp, einem der größten Ölkonzerne der Welt, welcher massiv zum Klimawandel beiträgt, ist, ist es dennoch gut, wenn wir im Alltag versuchen bewusste Entscheidungen zu treffen.
+
 &uarr; [zurück zur Übersicht](#top)
 
 <a name="13"></a>
 
 ### 1.3 Projektauftrag fixieren und Ziele definieren
+
+Auch wenn es sich bei der persönlichen CO₂-Bilanz um ein Ablenkungsmanöver der Ölkonzerne bp, Shell und ExxonMobil handelt, sehen wir dennoch das gute darin. Jeder Mensch sollte dazu beitragen, die Welt ein wenig besser zu gestalten. Auch wenn der Anteil an eigen verschuldetem CO₂ gering ist, halten wir es für richtig darauf, aufmerksam zu machen, Missstände aufzuklären und die Welt zu verbessern.
+
+Ziel ist eine Web-Applikation, welche eine noch nicht genauer spezifizierte Formel verwendet, um den CO₂-Fußabdruck eines einzelnen Nutzers basierend auf einem Fragebogen zu berechnen. Der Nutzer erhält angepasste Ratschläge, wie er seinen eigenen CO₂-Fußabdruck verringern kann. Neben einer detaillierten Auflistung der eigenen Emissionen wird der prozentuale Anteil an den gesamten Emissionen angezeigt. Als Frontend wird React zum Einsatz kommen, wohingegen C# im Backend zum Einsatz kommt.
 
 &uarr; [zurück zur Übersicht](#top)
 
