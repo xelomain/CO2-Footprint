@@ -46,7 +46,9 @@
 | 11BI02 (Kunden/Nutzer)       | Indirekt betroffene |
 
 > **Projektleiter:** Ziel der Projektleitung ist es, das Projekt unter Berücksichtigung aller Anforderungen möglichst nach Zeitplan abzuschließen und den Kunden/Nutzern zur Verfügung zu stellen.
+
 > **Auftraggeber:** Der Auftraggeber erwartet eine saubere Dokumentation. Sein Ziel ist es, ein bewertbares Projekt zu erhalten.
+
 > **Kunden/Nutzer:** Die Kunden/Nutzer tragen maßgeblich zur stetigen Verbesserung des Projekts bei und das auch noch nach den vier Projektphasen.
 
 #### Projektrisiken
