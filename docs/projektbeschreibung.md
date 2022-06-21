@@ -36,6 +36,37 @@
 
 ### 1.1 Projektumfeld
 
+#### Stakeholder
+
+| Aktiv                        | Passiv              |
+| ---------------------------- | ------------------- |
+| Jakob Becker (Projektleiter) | Behörden            |
+| Ole Nies (Projektleiter)     | Betriebsrat         |
+| Herr Pant (Auftraggeber)     | Konkurrenten        |
+| 11BI02 (Kunden/Nutzer)       | Indirekt betroffene |
+
+> **Projektleiter:** Ziel der Projektleitung ist es, das Projekt unter Berücksichtigung aller Anforderungen möglichst nach Zeitplan abzuschließen und den Kunden/Nutzern zur Verfügung zu stellen.
+> **Auftraggeber:** Der Auftraggeber erwartet eine saubere Dokumentation. Sein Ziel ist es, ein bewertbares Projekt zu erhalten.
+> **Kunden/Nutzer:** Die Kunden/Nutzer tragen maßgeblich zur stetigen Verbesserung des Projekts bei und das auch noch nach den vier Projektphasen.
+
+#### Projektrisiken
+
+| Art des Risikos                                                    | Eintrittswahrscheinlichkeit (%) | Auswirkung auf das Projekt (1-10) |
+| ------------------------------------------------------------------ | ------------------------------- | --------------------------------- |
+| Fehlende Interesse der Kunden/Nutzer am Markt                      | 5                               | 2                                 |
+| Probleme bei der DSGVO-konformen Datenverarbeitung                 | 15                              | 4                                 |
+| Deckung von laufenden Fixkosten bei einem 0 € Budget               | 30                              | 6                                 |
+| Nachlassende Qualität durch zeitlichen Druck in der Abschlussphase | 10                              | 3                                 |
+| Nachlassende Motivation der Projektleitung durch wenig Fortschritt | 20                              | 5                                 |
+
+#### Projektchancen
+
+| Art des Risikos                                      | Eintrittswahrscheinlichkeit (%) | Auswirkung auf das Projekt (1-10) |
+| ---------------------------------------------------- | ------------------------------- | --------------------------------- |
+| Verlängerung der Projektdauer durch den Auftraggeber | 10                              | 8                                 |
+| Annahme der Idee durch die Kunden/Nutzer             | 20                              | 3                                 |
+| Steigende Popularität durch steigenden Klimawandel   | 5                               | 4                                 |
+
 &uarr; [zurück zur Übersicht](#top)
 
 <a name="12"></a>
