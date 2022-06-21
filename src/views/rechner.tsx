@@ -15,7 +15,7 @@ export interface IRechner {
 
 const Rechner: React.FunctionComponent = () => {
 
-    const [co2Wert, setCo2Wert] = useState<number>(0);
+    var co2Wert = 0;
     const [gemueseWert, setGemueseWert] = useState('');
     const [milchWert, setMilchWert] = useState('');
     const [eiWert, setEiWert] = useState('');
@@ -55,6 +55,353 @@ const Rechner: React.FunctionComponent = () => {
     const haeuserbau: number = 0.30;
     const offentlicheDienstleistung: number = 0.95;
     
+    if(gemueseWert === "1"){
+      co2Wert = co2Wert + 0.64;
+    }else if(gemueseWert === "2"){
+      co2Wert = co2Wert + 0.48;
+    }else if(gemueseWert === "3"){
+      co2Wert = co2Wert + 0.32;
+    }else if(gemueseWert === "4"){
+      co2Wert = co2Wert + 0.16;
+    }else if(gemueseWert === "5"){
+      co2Wert = co2Wert + 0.04;
+    }
+
+    if(milchWert === "1"){
+      co2Wert = co2Wert + 0.81;
+    }else if(milchWert === "2"){
+      co2Wert = co2Wert + 0.60;
+    }else if(milchWert === "3"){
+      co2Wert = co2Wert + 0.40;
+    }else if(milchWert === "4"){
+      co2Wert = co2Wert + 0.24;
+    }else if(milchWert === "5"){
+      co2Wert = co2Wert + 0.10;
+    }else if(milchWert === "6"){
+      co2Wert = co2Wert + 0.03;
+    }else if(milchWert === "7"){
+      co2Wert = co2Wert + 0.02;
+    }
+
+    if(eiWert === "1"){
+      co2Wert = co2Wert + 0.21;
+    }else if(eiWert === "2"){
+      co2Wert = co2Wert + 0.14;
+    }else if(eiWert === "3"){
+      co2Wert = co2Wert + 0.06;
+    }else if(eiWert === "4"){
+      co2Wert = co2Wert + 0.03;
+    }else if(eiWert === "5"){
+      co2Wert = co2Wert + 0.01;
+    }else if(eiWert === "6"){
+      co2Wert = co2Wert + 0.01;
+    }
+
+    if(fleischWert === "1"){
+      co2Wert = co2Wert + 1.29;
+    }else if(fleischWert === "2"){
+      co2Wert = co2Wert + 0.97;
+    }else if(fleischWert === "3"){
+      co2Wert = co2Wert + 0.65;
+    }else if(fleischWert === "4"){
+      co2Wert = co2Wert + 0.48;
+    }else if(fleischWert === "5"){
+      co2Wert = co2Wert + 0.23;
+    }else if(fleischWert === "6"){
+      co2Wert = co2Wert + 0.09;
+    }else if(fleischWert === "7"){
+      co2Wert = co2Wert + 0.06;
+    }
+
+    if(labelprodukteWert === "1"){
+      co2Wert = co2Wert + 0.01;
+    }else if(labelprodukteWert === "2"){
+      co2Wert = co2Wert - 0.06;
+    }else if(labelprodukteWert === "3"){
+      co2Wert = co2Wert - 0.13;
+    }else if(labelprodukteWert === "4"){
+      co2Wert = co2Wert - 0.20;
+    }else if(labelprodukteWert === "5"){
+      co2Wert = co2Wert - 0.27;
+    }
+
+    if(lebensmittelWegwerfenWert === "1"){
+      co2Wert = co2Wert + 0.46;
+    }else if(lebensmittelWegwerfenWert === "2"){
+      co2Wert = co2Wert + 0.00;
+    }else if(lebensmittelWegwerfenWert === "3"){
+      co2Wert = co2Wert - 0.33;
+    }
+
+    if(kmfahrenWert === "1"){
+      co2Wert = co2Wert + 7.82;
+    }else if(kmfahrenWert === "2"){
+      co2Wert = co2Wert + 4.30;
+    }else if(kmfahrenWert === "3"){
+      co2Wert = co2Wert + 2.20;
+    }else if(kmfahrenWert === "4"){
+      co2Wert = co2Wert + 0.68;
+    }else if(kmfahrenWert === "5"){
+      co2Wert = co2Wert + 0.39;
+    }else if(kmfahrenWert === "6"){
+      co2Wert = co2Wert + 0.00;
+    }
+
+    if(oeffentlicheWert === "1"){
+      co2Wert = co2Wert + 4.47;
+    }else if(oeffentlicheWert === "2"){
+      co2Wert = co2Wert + 2.68;
+    }else if(oeffentlicheWert === "3"){
+      co2Wert = co2Wert + 1.67  ;
+    }else if(oeffentlicheWert === "4"){
+      co2Wert = co2Wert + 0.89;
+    }else if(oeffentlicheWert === "5"){
+      co2Wert = co2Wert + 0.39;
+    }else if(oeffentlicheWert === "6"){
+      co2Wert = co2Wert + 0.17;
+    }else if(oeffentlicheWert === "7"){
+      co2Wert = co2Wert + 0.00;
+    }
+
+    if(privatFlugzeugReisenWert === "1"){
+      co2Wert = co2Wert + 18.12;
+    }else if(privatFlugzeugReisenWert === "2"){
+      co2Wert = co2Wert + 6.62;
+    }else if(privatFlugzeugReisenWert === "3"){
+      co2Wert = co2Wert + 3.62  ;
+    }else if(privatFlugzeugReisenWert === "4"){
+      co2Wert = co2Wert + 2.08;
+    }else if(privatFlugzeugReisenWert === "5"){
+      co2Wert = co2Wert + 0.91;
+    }else if(privatFlugzeugReisenWert === "6"){
+      co2Wert = co2Wert + 0.27;
+    }else if(privatFlugzeugReisenWert === "7"){
+      co2Wert = co2Wert + 0.00;
+    }
+
+    if(kreuzfahrtWert === "1"){
+      co2Wert = co2Wert + 2.38;
+    }else if(kreuzfahrtWert === "2"){
+      co2Wert = co2Wert + 1.19;
+    }else if(kreuzfahrtWert === "3"){
+      co2Wert = co2Wert + 0.60;
+    }else if(kreuzfahrtWert === "4"){
+      co2Wert = co2Wert + 0.24;
+    }else if(kreuzfahrtWert === "5"){
+      co2Wert = co2Wert + 0.00;
+    }
+
+    if(heizenWert === "1"){
+      co2Wert = co2Wert + 2.52;
+    }else if(heizenWert === "2"){
+      co2Wert = co2Wert + 2.18;
+    }else if(heizenWert === "3"){
+      co2Wert = co2Wert + 1.89;
+    }else if(heizenWert === "4"){
+      co2Wert = co2Wert + 1.38;
+    }else if(heizenWert === "5"){
+      co2Wert = co2Wert + 1.05;
+    }else if(heizenWert === "6"){
+      co2Wert = co2Wert + 0.90;
+    }else if(heizenWert === "7"){
+      co2Wert = co2Wert + 0.74;
+    }else if(heizenWert === "8"){
+      co2Wert = co2Wert + 0.17;
+    }else if(heizenWert === "9"){
+      co2Wert = co2Wert + 0.18;
+    }else if(heizenWert === "10"){
+      co2Wert = co2Wert + 1.26;
+    }
+
+    if(wohnhausStandardWert === "1"){
+      co2Wert = co2Wert + 0.01;
+    }else if(wohnhausStandardWert === "2"){
+      co2Wert = co2Wert - 0.05;
+    }else if(wohnhausStandardWert === "3"){
+      co2Wert = co2Wert - 0.07;
+    }else if(wohnhausStandardWert === "4"){
+      co2Wert = co2Wert - 0.04;
+    }else if(wohnhausStandardWert === "5"){
+      co2Wert = co2Wert - 0.08;
+    }else if(wohnhausStandardWert === "6"){
+      co2Wert = co2Wert - 0.09;
+    }else if(wohnhausStandardWert === "7"){
+      co2Wert = co2Wert - 0.14;
+    }else if(wohnhausStandardWert === "8"){
+      co2Wert = co2Wert - 0.01;
+    }
+
+    if(wohnflächeWert === "1"){
+      co2Wert = co2Wert + 1.81;
+    }else if(wohnflächeWert === "2"){
+      co2Wert = co2Wert + 1.48;
+    }else if(wohnflächeWert === "3"){
+      co2Wert = co2Wert + 0.99;
+    }else if(wohnflächeWert === "4"){
+      co2Wert = co2Wert + 0.74;
+    }else if(wohnflächeWert === "5"){
+      co2Wert = co2Wert + 0.58;
+    }else if(wohnflächeWert === "6"){
+      co2Wert = co2Wert + 0.41;
+    }else if(wohnflächeWert === "7"){
+      co2Wert = co2Wert + 0.25;
+    }else if(wohnflächeWert === "8"){
+      co2Wert = co2Wert + 0.09;
+    }else if(wohnflächeWert === "9"){
+      co2Wert = co2Wert - 0.01;
+    }
+
+    if(personenImHaushaltWert === "1"){
+      co2Wert = co2Wert + 0.16;
+    }else if(personenImHaushaltWert === "2"){
+      co2Wert = co2Wert + 0.00;
+    }else if(personenImHaushaltWert === "3"){
+      co2Wert = co2Wert - 0.05;
+    }else if(personenImHaushaltWert === "4"){
+      co2Wert = co2Wert - 0.08;
+    }else if(personenImHaushaltWert === "5"){
+      co2Wert = co2Wert - 0.09;
+    }else if(personenImHaushaltWert === "6"){
+      co2Wert = co2Wert - 0.10;
+    }else if(personenImHaushaltWert === "7"){
+      co2Wert = co2Wert - 0.11;
+    }
+
+    if(gradHeizenWert === "1"){
+      co2Wert = co2Wert + 0.00;
+    }else if(gradHeizenWert === "2"){
+      co2Wert = co2Wert + 0.00;
+    }else if(gradHeizenWert === "3"){
+      co2Wert = co2Wert + 0.00;
+    }else if(gradHeizenWert === "4"){
+      co2Wert = co2Wert + 0.00;
+    }else if(gradHeizenWert === "5"){
+      co2Wert = co2Wert + 0.00;
+    }
+
+    if(haustype === "1"){
+      co2Wert = co2Wert + 0.00;
+    }else if(haustype === "2"){
+      co2Wert = co2Wert + 0.00;
+    }
+
+    if(eigentuemer === "1"){
+      co2Wert = co2Wert + 0.00;
+    }else if(eigentuemer === "2"){
+      co2Wert = co2Wert + 0.00;
+    }
+
+    if(warmwasser === "1"){
+      co2Wert = co2Wert + 0.53;
+    }else if(warmwasser === "2"){
+      co2Wert = co2Wert + 0.46;
+    }else if(warmwasser === "3"){
+      co2Wert = co2Wert + 0.40;
+    }else if(warmwasser === "4"){
+      co2Wert = co2Wert + 0.29;
+    }else if(warmwasser === "5"){
+      co2Wert = co2Wert + 0.15;
+    }else if(warmwasser === "6"){
+      co2Wert = co2Wert + 0.19;
+    }else if(warmwasser === "7"){
+      co2Wert = co2Wert + 0.15;
+    }else if(warmwasser === "8"){
+      co2Wert = co2Wert + 0.04;
+    }else if(warmwasser === "9"){
+      co2Wert = co2Wert + 0.03;
+    }else if(warmwasser === "10"){
+      co2Wert = co2Wert + 0.26;
+    }
+
+    if(effizienzklasse === "1"){
+      co2Wert = co2Wert + 0.21;
+    }else if(effizienzklasse === "2"){
+      co2Wert = co2Wert + 0.17;
+    }else if(effizienzklasse === "3"){
+      co2Wert = co2Wert + 0.12;
+    }else if(effizienzklasse === "4"){
+      co2Wert = co2Wert + 0.10;
+    }else if(effizienzklasse === "5"){
+      co2Wert = co2Wert + 0.21;
+    }else if(effizienzklasse === "6"){
+      co2Wert = co2Wert + 0.15;
+    }
+
+    if(kuehlgeraete === "1"){
+      co2Wert = co2Wert + 0.42;
+    }else if(kuehlgeraete === "2"){
+      co2Wert = co2Wert + 0.14;
+    }else if(kuehlgeraete === "3"){
+      co2Wert = co2Wert + 0.11;
+    }
+
+    if(waescheWaschen === "1"){
+      co2Wert = co2Wert + 0.03;
+    }else if(waescheWaschen === "2"){
+      co2Wert = co2Wert + 0.02;
+    }else if(waescheWaschen === "3"){
+      co2Wert = co2Wert + 0.01;
+    }
+
+    if(waescheTrocknen === "1"){
+      co2Wert = co2Wert + 0.10;
+    }else if(waescheTrocknen === "2"){
+      co2Wert = co2Wert + 0.05;
+    }else if(waescheTrocknen === "3"){
+      co2Wert = co2Wert + 0.00;
+    }
+
+    if(kleidung === "1"){
+      co2Wert = co2Wert + 1.20;
+    }else if(kleidung === "2"){
+      co2Wert = co2Wert + 0.60;
+    }else if(kleidung === "3"){
+      co2Wert = co2Wert + 0.30;
+    }else if(kleidung === "4"){
+      co2Wert = co2Wert + 0.23;
+    }else if(kleidung === "5"){
+      co2Wert = co2Wert + 0.08;
+    }
+
+    if(ausgabeFreizeit === "1"){
+      co2Wert = co2Wert + 1.27;
+    }else if(ausgabeFreizeit === "2"){
+      co2Wert = co2Wert + 0.64;
+    }else if(ausgabeFreizeit === "3"){
+      co2Wert = co2Wert + 0.32;
+    }else if(ausgabeFreizeit === "4"){
+      co2Wert = co2Wert + 0.24;
+    }else if(ausgabeFreizeit === "5"){
+      co2Wert = co2Wert + 0.08;
+    }
+
+    if(ausgabeMoebel === "1"){
+      co2Wert = co2Wert + 3.16;
+    }else if(ausgabeMoebel === "2"){
+      co2Wert = co2Wert + 1.58;
+    }else if(ausgabeMoebel === "3"){
+      co2Wert = co2Wert + 0.79;
+    }else if(ausgabeMoebel === "4"){
+      co2Wert = co2Wert + 0.59;
+    }else if(ausgabeMoebel === "5"){
+      co2Wert = co2Wert + 0.20;
+    }
+
+    if(ausgabeEssen === "1"){
+      co2Wert = co2Wert + 2.40;
+    }else if(ausgabeEssen === "2"){
+      co2Wert = co2Wert + 1.20;
+    }else if(ausgabeEssen === "3"){
+      co2Wert = co2Wert + 0.60;
+    }else if(ausgabeEssen === "4"){
+      co2Wert = co2Wert + 0.45;
+    }else if(ausgabeEssen === "5"){
+      co2Wert = co2Wert + 0.15;
+    }
+
+    co2Wert = co2Wert + grundnahrungsmittelWert + kleingereate + entsorungsnetz + konsumgueter + haeuserbau + offentlicheDienstleistung;
+
+    var divCo2Wert = co2Wert / 11.6; 
 
     return(
         <><div>
@@ -597,6 +944,10 @@ const Rechner: React.FunctionComponent = () => {
     </FormControl>
     
 
+            </div>
+            <div>
+              <TextField label={"Ihr CO2 Wert"} value={co2Wert}/>
+              <TextField label={"Ihr CO2 Wirt in Differenz zum Durchschnitt in Deutschland"} value={divCo2Wert}/>
             </div>
             
             </>
