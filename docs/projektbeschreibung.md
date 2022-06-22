@@ -182,11 +182,17 @@ Akzeptierung der Merge Requests durch Jakob.
 
 ### 3.1 Recherche über die Produkte
 
+Wir benötigen einen Webserver zum Übertragen von Dokumenten beziehungsweise zum Übertragen der Webinhalte an den Client wie z. B. einen Webbrowser. Die am weitesten verbreiteten Webserver sind Apache, nginx, Microsoft IIS und Google Webserver. Dabei sind Apache und Nginx frei nutzbare Software, wohingegen bei der Verwendung von Microsoft IIS und der Google Webserver rechtliche Bestimmungen zu beachten sind. Es wird ein physischer oder virtueller Server benötigt, um einen Webserver bereitzustellen. Öffne. Dabei gibt es verschiedene Anbieter wie beispielsweise Strato oder 1 und 1. Diese unterscheiden sich in Hardware, Software.
+
 &uarr; [zurück zur Übersicht](#top)
 
 <a name="32"></a>
 
 ### 3.2 Entscheidung / Auswahl Produkt
+
+Bevor wir mit einer Nutzwertanalyse beginnen, stellen wir die Kriterien auf. Wir benötigen einen virtuellen Server mit etwas RAM sowie einer schnellen SSD. Dieser soll auf Linux basieren und mit Root Zugriff zugänglich sein. Zusätzlich wünschen wir uns ein SSL Zertifikat für den Server.
+
+Analyse in Anlage 1!
 
 &uarr; [zurück zur Übersicht](#top)
 
