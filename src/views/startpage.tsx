@@ -26,13 +26,13 @@ const Startpage: React.FunctionComponent = () => {
             <div>
                 <span>
                     <Link to="/rechner">
-                        <Button variant="contained" color="primary" aria-label='Rechner' />
+                        <Button variant="contained" color="primary" aria-label='CO2Rechner' />
                     </Link>
                 </span>
             </div>
             <div>    
                 <span>
-                    <Link to="/welt-co2-fußabdruck">
+                    <Link to={{ pathname: "https://climateaccountability.org/carbonmajors.html"}}>
                         <Button variant="contained" color="primary" aria-label='Welt CO2-Fußabdruck' />
                     </Link>
                 </span>
