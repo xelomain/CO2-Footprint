@@ -1,6 +1,4 @@
-import React, {useState, useEffect} from 'react';
-import Markdown from 'react-markdown';
-import Box from '@mui/material/Box';
+import React from 'react';
 import Button from '@mui/material/Button';
 import { Link } from 'react-router-dom';
 import NavBar from './navbar';
@@ -10,9 +8,6 @@ import Stack from '@mui/material/Stack';
 
 const Startpage: React.FunctionComponent = () => {
     
-    const wikiLink = 'https://de.m.wikipedia.org/wiki/CO2-Bilanz';
-
-    var infotext: string = '#CO2-Footprint \n ';
     
     return (
         <div>
@@ -44,7 +39,9 @@ const Startpage: React.FunctionComponent = () => {
                 </span>
                 <span>
                     <Link to="/wikipedia">
-                        <Button variant="contained" color="primary" aria-label='Wikipedia' />
+                        <Button variant="contained" color="primary" aria-label='Wikipedia' >
+                        <Link to={{ pathname: "https://de.m.wikipedia.org/wiki/CO2-Bilanz" }} target="_blank" />
+                        </Button>
                     </Link>
                 </span>
             </div>
