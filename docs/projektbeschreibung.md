@@ -83,9 +83,9 @@ Viele der definierten Kunden/Nutzer sind sich über Ihren negativen Einfluss auf
 
 ### 1.3 Projektauftrag fixieren und Ziele definieren
 
-Auch wenn es sich bei der persönlichen CO₂-Bilanz um ein Ablenkungsmanöver der Ölkonzerne bp, Shell und ExxonMobil handelt, sehen wir dennoch das gute darin. Jeder Mensch sollte dazu beitragen, die Welt ein wenig besser zu gestalten. Auch wenn der Anteil an eigen verschuldetem CO₂ gering ist, halten wir es für richtig darauf, aufmerksam zu machen, Missstände aufzuklären und die Welt zu verbessern.
+Auch wenn es sich bei der persönlichen CO₂-Bilanz um ein Ablenkungsmanöver der Ölkonzerne bp, Shell und ExxonMobil handelt, sehen wir dennoch das gute darin. Jeder Mensch sollte dazu beitragen, die Welt ein wenig besser zu gestalten. Auch wenn der Anteil an eigen verschuldetem CO₂ gering ist, halten wir es für richtig darauf, aufmerksam zu machen, Missstände aufzuklären und die Welt so zu verbessern.
 
-Ziel ist eine Web-Applikation, welche eine noch nicht genauer spezifizierte Formel verwendet, um den CO₂-Fußabdruck eines einzelnen Nutzers basierend auf einem Fragebogen zu berechnen. Der Nutzer erhält angepasste Ratschläge, wie er seinen eigenen CO₂-Fußabdruck verringern kann. Neben einer detaillierten Auflistung der eigenen Emissionen wird der prozentuale Anteil an den gesamten Emissionen angezeigt. Als Frontend wird React zum Einsatz kommen, wohingegen C# im Backend zum Einsatz kommt.
+Ziel ist es dem Kunden/Nutzer die Berechnung seiner eigenen CO₂-Bilanz zu ermöglichen und diese mit verschiedenen Indikatoren zu vergleichen.
 
 &uarr; [zurück zur Übersicht](#top)
 
@@ -97,11 +97,17 @@ Ziel ist eine Web-Applikation, welche eine noch nicht genauer spezifizierte Form
 
 ### 2.1 Soll-Konzept
 
+Ziel ist eine Web-Applikation, welche eine noch nicht genauer spezifizierte Formel verwendet, um den CO₂-Fußabdruck eines einzelnen Nutzers basierend auf einem Fragebogen zu berechnen. Der Nutzer erhält angepasste Ratschläge, wie er seinen eigenen CO₂-Fußabdruck verringern kann. Neben einer detaillierten Auflistung der eigenen Emissionen wird der prozentuale Anteil an den gesamten Emissionen angezeigt. Als Frontend wird React zum Einsatz kommen.
+
 &uarr; [zurück zur Übersicht](#top)
 
 <a name="22"></a>
 
 ### 2.2 Ressourcen- und Personalplanung
+
+Da sich die Ressourcen auf unsere von der Arbeit gestellten Laptops beschränken, welche zur permanenten verfügung stehen muss hier keine weitere Planung erfolgen.
+
+Jakob kümmert sich primär um die Dokumentation des Projekts wohingegen Ole die Entwicklung mit React übernimmt. Diese Rollenverteilung ist dabei nicht strickt und wird regelmäßig nicht eingehalten.
 
 &uarr; [zurück zur Übersicht](#top)
 
@@ -109,11 +115,19 @@ Ziel ist eine Web-Applikation, welche eine noch nicht genauer spezifizierte Form
 
 ### 2.3 Zeitplanung
 
+Durch den Projektstart am 06.05.22 und das Ende am 24.06.22 haben wir ein Minumum von 16 Schulstunden Zeit, da wir alle zwei Wochen 4 Schulstunden haben. Zusätzlich dazu kommen Wöchentliche Einstündige Arbeitsstunden in der Privat zeit. Somit kommen wir auf eine Gesamtzeit von 19 Stunden pro Person.
+
+Davon wird Ole 17 Stunden in die Programmierung stecken und Jakob in die Dokumentation. Die jeweils übrigen Stunden werden für Organisatorische Themen freigehalten.
+
 &uarr; [zurück zur Übersicht](#top)
 
 <a name="231"></a>
 
 #### 2.3.1 Meilensteine
+
+-   Erstellung der Kalkulation von Emissionen
+-   Verbesserungsvorschläge basierend auf den Werten die zur Kalkulation verwendet wurden
+-   Vergleich der Kalkulierten Emissionen mit verschiedenen Idikatoren
 
 &uarr; [zurück zur Übersicht](#top)
 
@@ -121,17 +135,42 @@ Ziel ist eine Web-Applikation, welche eine noch nicht genauer spezifizierte Form
 
 #### 2.3.2 Terminplanung
 
+Projektstart am 06.05.22
+Projektende am 24.06.22
+
+Daraus ergeben sich 16 Schulstunden
+Zusätzlich dazu kommen wöchentliche einstündige Arbeitssstunden jeden Mittwoch
+
 &uarr; [zurück zur Übersicht](#top)
 
 <a name="24"></a>
 
 ### 2.4 Vorkalkulation
 
+Löhne:
+
+-   Stundenlohn Jakob: 20€
+-   Stundenlohn Ole: 60€
+
+Monatliche fix Kosten:
+
+-   Webserver: 30€
+-   Domain: 5€
+
+Anschaffungskosten:
+
+-   Webserver: 15€
+
+Kosten des Projekts bei einer Laufzeit von 2 Monaten: 1.605 €
+
 &uarr; [zurück zur Übersicht](#top)
 
 <a name="25"></a>
 
 ### 2.5 Planung der Qualitätssicherung
+
+Regelmäßiges Prüfen der Dokumentation durch Ole.
+Akzeptierung der Merge Requests durch Jakob.
 
 &uarr; [zurück zur Übersicht](#top)
 
