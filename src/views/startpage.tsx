@@ -1,7 +1,6 @@
 import React from 'react';
 import Button from '@mui/material/Button';
 import { Link } from 'react-router-dom';
-import NavBar from './navbar';
 import Alert from '@mui/material/Alert';
 import AlertTitle from '@mui/material/AlertTitle';
 import Stack from '@mui/material/Stack';
@@ -11,14 +10,10 @@ const Startpage: React.FunctionComponent = () => {
     
     return (
         <div>
-
             <div>
                 <h1>Startpage</h1>
             </div>
             <div>
-                <div>
-                    <NavBar />
-                </div>
                 <div>
                 <Stack sx={{ width: '100%' }} spacing={2}>
                     <Alert severity="info">
@@ -27,21 +22,25 @@ const Startpage: React.FunctionComponent = () => {
                     </Alert>
              </Stack>
                 </div>
+            </div>
+            <div>
                 <span>
                     <Link to="/rechner">
                         <Button variant="contained" color="primary" aria-label='Rechner' />
                     </Link>
                 </span>
+            </div>
+            <div>    
                 <span>
                     <Link to="/welt-co2-fußabdruck">
                         <Button variant="contained" color="primary" aria-label='Welt CO2-Fußabdruck' />
                     </Link>
                 </span>
+            </div>
+            <div>
                 <span>
-                    <Link to="/wikipedia">
-                        <Button variant="contained" color="primary" aria-label='Wikipedia' >
-                        <Link to={{ pathname: "https://de.m.wikipedia.org/wiki/CO2-Bilanz" }} target="_blank" />
-                        </Button>
+                    <Link to={{ pathname: "https://de.m.wikipedia.org/wiki/CO2-Bilanz"}}>
+                        <Button variant="contained" color="primary" aria-label='Wikipedia'/>
                     </Link>
                 </span>
             </div>
