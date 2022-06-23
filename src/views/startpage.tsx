@@ -25,23 +25,17 @@ const Startpage: React.FunctionComponent = () => {
             </div>
             <div>
                 <span>
-                    <Link to="/rechner">
-                        <Button variant="contained" color="primary" aria-label='CO2Rechner' />
-                    </Link>
+                    <Button variant="contained" color="primary" aria-label='CO2Rechner' href="http://localhost:3000/rechner" />
                 </span>
             </div>
             <div>    
                 <span>
-                    <Link to={{ pathname: "https://climateaccountability.org/carbonmajors.html"}}>
-                        <Button variant="contained" color="primary" aria-label='Welt CO2-Fußabdruck' />
-                    </Link>
+                    <Button variant="contained" color="primary" aria-label='Welt CO2-Fußabdruck' href="https://climateaccountability.org/carbonmajors.html" />
                 </span>
             </div>
             <div>
                 <span>
-                    <Link to={{ pathname: "https://de.m.wikipedia.org/wiki/CO2-Bilanz"}}>
-                        <Button variant="contained" color="primary" aria-label='Wikipedia'/>
-                    </Link>
+                    <Button variant="contained" color="primary" aria-label='Wikipedia' href="https://de.m.wikipedia.org/wiki/CO2-Bilanz"/>
                 </span>
             </div>
         </div>
