@@ -5,7 +5,6 @@ import FormControlLabel from "@mui/material/FormControlLabel";
 import FormControl from "@mui/material/FormControl";
 import FormLabel from "@mui/material/FormLabel";
 import { TextField } from "@mui/material";
-import { Container, Row } from "react-bootstrap";
 
 //https://www.wwf.de/themen-projekte/klima-energie/wwf-klimarechner
 
